@@ -73,11 +73,11 @@ def are_equal(s1, s2):
 #       break
 #   else:
 #       i += 1
-#       ans += "x"                              |----------------|-------000000000|
-#                                               |-----xxxxxxxx---|---------------0|
-# max_len_to_stay_in_block = i                  |-----xxxxxxxxx--|----------------|
-# padding_len = i                               |-----xxxxxxxxxx-|----------------|-000000000000000|
-# message_len = l//2 - padding_len              |-----xxxxxxxxxxx|x---------------|---0000000000000|
+#       ans += "x"                            # |----------------|-------000000000|
+#                                             # |-----xxxxxxxx---|---------------0|
+# max_len_to_stay_in_block = i                # |-----xxxxxxxxx--|----------------|
+# padding_len = i                             # |-----xxxxxxxxxx-|----------------|-000000000000000|
+# message_len = l//2 - padding_len            # |-----xxxxxxxxxxx|x---------------|---0000000000000|
 # flag_len = message_len - 113
 
 ### PRECALCULATED WITH PREVIOUS ROUTINE
